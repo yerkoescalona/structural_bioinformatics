@@ -1,0 +1,17 @@
+name: structbioinfo
+channels:
+  - defaults
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - biopandas
+  - pypdb
+  - rdkit
+  - jupyter
+  - tqdm
+  - py3dmol
