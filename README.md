@@ -2,15 +2,23 @@
 
 # Structural Bioinformatics
 
-Teaching materials for the course "Structural Bioinformatics" at [FHWN](https://tulln.fhwn.ac.at/studiengang/bio-data-science)
+Teaching materials for the course "Structural Bioinformatics" at [FHWN](https://tulln.fhwn.ac.at/studiengang/bio-data-science).
 
 ## Installation
 
-### pip
+After some minor research, google colab is the best option.
+I have downgraded the notebooks to the GoogleColab versions for compatibility.
 
-Using pip:
+Despite of it, you are free to use the notebooks in your local machine.
 
-    pip install -r requirements.txt
+### google colab
+
+Google colab is a free service that allows you to run jupyter notebooks in the cloud.
+
+| Link                                                                                                                               | Description                          |
+|------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
+| [crash_course](https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex00/crash_course.ipynb) | Crash course for Bio Data Scientists |
+| [ex01](https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex01/ex01.ipynb)                 | Exercise 01                          |
 
 ### conda
 
@@ -27,13 +35,12 @@ For upcoming modifications of the environment execute:
     conda activate structbioinfo
     conda env update --file environment.yml --prune
 
-### google colab
+### pip
 
-In this case, you just need to type in your browser a line like:
+Using pip:
 
-    https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex01/ex01.ipynb
+    pip install -r requirements.txt
 
-here the [link](https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex01/ex01.ipynb)
 
 ### License
 [![BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
