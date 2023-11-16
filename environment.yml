@@ -14,3 +14,8 @@ dependencies:
   - tqdm=4.66.1
   - py3dmol=2.0.4
   - jupyter
+  - openmm
+  - nglview
+  - mdtraj
+  - mdanalysis
+  - pdbfixer
