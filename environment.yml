@@ -19,3 +19,4 @@ dependencies:
   - mdtraj
   - mdanalysis
   - pdbfixer
+  - rdkit
