@@ -1,6 +1,6 @@
 ![logo](imgs/logo.png)
 
-# Structural Bioinformatics
+# Structural Bioinformatics (W2024)
 
 Teaching materials for the course "Structural Bioinformatics" at [FHWN](https://tulln.fhwn.ac.at/studiengang/bio-data-science).
 
@@ -19,10 +19,7 @@ Google colab is a free service that allows you to run jupyter notebooks in the c
 |------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | [crash_course](https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex00/crash_course.ipynb) | Crash course for Bio Data Scientists |
 | [ex01](https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex01/ex01.ipynb)                 | Exercise 01                          |
-| [ex02](https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex02/ex02.ipynb)                 | Exercise 02                          |
-| [ex03](https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex03/ex03.ipynb)                 | Exercise 03                          |
-| [ex04](https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex04/ex04.ipynb)                 | Exercise 04                          |
-
+|
 
 ### conda
 
