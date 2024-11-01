@@ -4,19 +4,22 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python=3.10.12
-  - numpy=1.23.5
-  - scipy=1.11.3
-  - pandas=1.5.3
-  - matplotlib=3.7.1
+  - python=3.10
+# conda and pip packages
   - biopandas=0.4.1
-  - pypdb=2.3
-  - tqdm=4.66.1
+  - ipykernel=6.29.5
+  - jupyter=1.1.1
+  - matplotlib=3.9.2
+  - mdanalysis=2.7.0
+  - mdtraj=1.10.0
+  - nglview=3.1.2
+  - numpy=1.26.4
+  - openmm=8.1.1
+  - pandas=2.2.3
   - py3dmol=2.0.4
-  - jupyter
-  - openmm
-  - nglview
-  - mdtraj
-  - mdanalysis
+  - pypdb=2.4
+  - rdkit=2024.3.5
+  - scipy=1.14.1
+  - tqdm=4.66.6
+# conda only packages
   - pdbfixer
-  - rdkit
