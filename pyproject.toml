@@ -5,6 +5,7 @@ description = "Teaching materials for the course: Structural Bioinformatics"
 authors = ["Yerko Escalona <35448591+yerkoescalona@users.noreply.github.com>"]
 readme = "README.md"
 license = "CC BY-NC-SA 4.0"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "~3.10"
@@ -21,7 +22,7 @@ pandas = "2.2.2"
 py3dmol = "2.4.0"
 pypdb = "2.4"
 rdkit = "2024.3.5"
-scipy = "1.14.1"
+scipy = "1.13.1"
 tqdm = "4.66.6"
 
 [tool.poetry.group.dev.dependencies]
@@ -29,6 +30,7 @@ ruff = "^0.7.1"
 pytest = "^8.3.3"
 pre-commit = "^4.0.1"
 poetry-plugin-export = "^1.8.0"
+nbstripout = "^0.8.0"
 
 
 [build-system]
