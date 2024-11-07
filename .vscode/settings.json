@@ -10,7 +10,7 @@
     "githd.blameView.enabled": false,
     "editor.minimap.scale": 2,
     "remote.autoForwardPortsSource": "hybrid",
-    "workbench.colorTheme": "Tokyo Night Storm",
+    "workbench.colorTheme": "GitHub Dark",
     "editor.formatOnSave": true,
     "python.testing.pytestEnabled": true,
     "workbench.iconTheme": "material-icon-theme",
