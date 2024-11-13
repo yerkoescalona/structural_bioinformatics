@@ -16,6 +16,7 @@ Google colab is a free service that allows you to run jupyter notebooks in the c
 |------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex00/crash_course.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 00: Crash course for Bio Data Scientists |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex01/ex01.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 01: Exploring and Analyzing Protein Structures in the PDB Database |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex02/ex02.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 02: Protein Structure and Modeling |
 
 
 
