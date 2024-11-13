@@ -164,3 +164,10 @@ cython_debug/
 # ex00
 ex00/population.csv
 # ex01
+
+# ex02
+ex02/params
+ex02/af_backprop
+ex02/alphafold_params_2021-07-14.tar
+ex02/colabfold.py
+ex02/out.pdb
