@@ -171,3 +171,10 @@ ex02/af_backprop
 ex02/alphafold_params_2021-07-14.tar
 ex02/colabfold.py
 ex02/out.pdb
+
+# ex03
+ex03/checkpoint.chk
+ex03/md_log.txt
+ex03/system.xml
+ex03/traj.dcd
+ex03/topology.pdb
