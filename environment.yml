@@ -14,7 +14,7 @@ dependencies:
   - mdtraj=1.10.0
   - nglview=3.1.2
   - numpy=1.26.4
-  - openmm=8.1.1
+  - openmm=8.2.0
   - pandas=2.2.2
   - py3dmol=2.0.4
   - pypdb=2.4
