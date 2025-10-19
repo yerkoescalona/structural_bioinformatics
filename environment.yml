@@ -4,24 +4,36 @@ channels:
   - conda-forge
   - bioconda
 dependencies:
-  - python=3.10
+  - python=3.12
 # conda and pip packages
   - biopandas=0.4.1
-  - ipykernel #=5.5.6
+  - ipykernel>=6.29.5
   - jupyter=1.1.1
-  - matplotlib=3.9.2
-  - mdanalysis=2.7.0
-  - mdtraj=1.10.0
+  - matplotlib=3.10.0
+  - mdanalysis>=2.10.0
   - nglview=3.1.2
-  - numpy=1.26.4
+  - numpy=2.0.2
   - openmm=8.2.0
   - pandas=2.2.2
-  - py3dmol=2.0.4
+  - py3dmol=2.4.0
   - pypdb=2.4
   - rdkit=2024.3.5
-  - scipy=1.13.1
+  - scipy=1.16.1
   - tqdm=4.66.6
+  - biopython>=1.84
 # conda only packages
   - pdbfixer
   - clustalo
   - muscle
+# pip only packages (not available via conda)
+  - pip
+  - pip:
+    - tensorflow>=2.20.0
+    - jax>=0.5.3
+    - dm-tree>=0.1.8
+    - dm-haiku>=0.0.13
+    - jmp>=0.0.4
+    - ml-collections>=0.1.1
+    - absl-py>=2.1.0
+    - tabulate>=0.9.0
+    - six>=1.16.0

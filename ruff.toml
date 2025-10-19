@@ -1,0 +1,40 @@
+# Ruff configuration for Structural Bioinformatics project
+
+# Target Python version
+target-version = "py312"
+
+# Line length (same as Black default)
+line-length = 88
+
+# Directories to exclude from linting
+exclude = [
+    ".git",
+    ".venv",
+    "__pycache__",
+    "build",
+    "dist",
+    ".ipynb_checkpoints",
+    ".pytest_cache",
+    ".ruff_cache",
+]
+
+[lint]
+# Rule selection - only enable specific rule categories
+select = [
+    "E4",  # Import related errors
+    "E7",  # Indentation errors  
+    "E9",  # Hanging indentation
+    "F",   # Pyflakes
+    "D",   # Docstring checks
+]
+
+# Allow unused variables when underscore-prefixed
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[lint.per-file-ignores]
+# Allow redefinition in Jupyter notebooks
+"**/*.ipynb" = ["F811"]
+
+[lint.pydocstyle]
+# Use Google docstring convention
+convention = "google"
