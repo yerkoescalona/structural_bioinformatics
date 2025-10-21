@@ -8,24 +8,23 @@ license = "CC BY-NC-SA 4.0"
 package-mode = false
 
 [tool.poetry.dependencies]
-python = "~3.10"
+python = "~3.12"
 biopandas = "0.4.1"
 ipykernel = "^6.29.5"
 jupyter = "1.1.1"
-matplotlib = "3.9.2"
-MDAnalysis = "2.7.0"
-mdtraj = "1.10.0"
+matplotlib = "3.10.0"
+MDAnalysis = "^2.10.0"
 nglview = "3.1.2"
-numpy = "1.26.4"
+numpy = "2.0.2"
 OpenMM = "8.2.0"
 pandas = "2.2.2"
 py3dmol = "2.4.0"
 pypdb = "2.4"
 rdkit = "2024.3.5"
-scipy = "1.13.1"
+scipy = "1.16.1"
 tqdm = "4.66.6"
-tensorflow = "^2.18.0"
-jax = "^0.4.35"
+tensorflow = "^2.20.0"
+jax = "^0.5.3"
 dm-tree = "^0.1.8"
 biopython = "^1.84"
 dm-haiku = "^0.0.13"
@@ -34,109 +33,23 @@ jmp = "^0.0.4"
 ml-collections = "^0.1.1"
 tabulate = "^0.9.0"
 six = "^1.16.0"
+plotly = "5.24.1"
 
 [tool.poetry.group.dev.dependencies]
-ruff = "^0.7.1"
-pytest = "^8.3.3"
-pre-commit = "^4.0.1"
-poetry-plugin-export = "^1.8.0"
-nbstripout = "^0.8.0"
+ruff = "^0.14.1"
+pytest = "^8.4.2"
+pre-commit = "^4.3.0"
+poetry-plugin-export = "^1.9.0"
+nbstripout = "^0.8.1"
+commitizen = "^3.29.0"
 
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
-[tool.ruff]
-# Exclude a variety of commonly ignored directories.
-exclude = [
-    ".bzr",
-    ".direnv",
-    ".eggs",
-    ".git",
-    ".git-rewrite",
-    ".hg",
-    ".ipynb_checkpoints",
-    ".mypy_cache",
-    ".nox",
-    ".pants.d",
-    ".pyenv",
-    ".pytest_cache",
-    ".pytype",
-    ".ruff_cache",
-    ".svn",
-    ".tox",
-    ".venv",
-    ".vscode",
-    "__pypackages__",
-    "_build",
-    "buck-out",
-    "build",
-    "dist",
-    "node_modules",
-    "site-packages",
-    "venv",
-]
-
-# Same as Black.
-line-length = 88
-indent-width = 4
-
-# Set target Python version to 3.10
-target-version = "py310"
-
-
-
-[tool.ruff.lint]
-# Enable Pyflakes (`F`), a subset of pycodestyle (`E`), and docstring checks (`D`).
-select = [
-    "E4", # Import related errors
-    "E7", # Indentation errors
-    "E9", # Hanging indentation 
-    "F",  # Pyflakes
-    "D"   # Docstring checks
-]
-ignore = []
-
-# Allow fix for all enabled rules (when `--fix`) is provided.
-fixable = ["ALL"]
-unfixable = []
-
-# Allow unused variables when underscore-prefixed.
-dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
-
-[tool.ruff.per-file-ignores]
-"**/*.ipynb" = [
-    "F811", # redefinition of unused variable
-]
-
-[tool.ruff.lint.pydocstyle]
-convention = "google"  # Accepts: "google", "numpy", or "pep257".
-
-[tool.ruff.format]
-# Like Black, use double quotes for strings.
-quote-style = "double"
-
-# Like Black, indent with spaces, rather than tabs.
-indent-style = "space"
-
-# Like Black, respect magic trailing commas.
-skip-magic-trailing-comma = false
-
-# Like Black, automatically detect the appropriate line ending.
-line-ending = "auto"
-
-# Enable auto-formatting of code examples in docstrings. Markdown,
-# reStructuredText code/literal blocks and doctests are all supported.
-#
-# This is currently disabled by default, but it is planned for this
-# to be opt-out in the future.
-docstring-code-format = false
-
-# Set the line length limit used when formatting code snippets in
-# docstrings.
-#
-# This only has an effect when the `docstring-code-format` setting is
-# enabled.
-docstring-code-line-length = "dynamic"
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.0"
+tag_format = "v$version"
 

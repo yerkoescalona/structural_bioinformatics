@@ -1,6 +1,6 @@
 ![logo](imgs/logo.png)
 
-# Structural Bioinformatics (W2024)
+# Structural Bioinformatics (W2025)
 
 Teaching materials for the course "Structural Bioinformatics" at [FHWN](https://tulln.fhwn.ac.at/studiengang/bio-data-science).
 
@@ -14,11 +14,16 @@ Google colab is a free service that allows you to run jupyter notebooks in the c
 
 | Link                                                                                                                               | Description                          |
 |------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex00/crash_course.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 00: Crash course for Bio Data Scientists |
+| <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex00/scientific_python_crash_course.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 00: Scientific Python Crash Course for Structural Bioinformatics |
+
+<!-- 
+TODO: Exercises for W2025 - Coming Soon!
+
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex01/ex01.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 01: Exploring and Analyzing Protein Structures in the PDB Database |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex02/ex02.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 02: Protein Structure and Modeling |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex03/ex03.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 03: Protein Dynamics |
 | <a href="https://colab.research.google.com/github/yerkoescalona/structural_bioinformatics/blob/main/ex04/ex04.ipynb" target="_blank"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Exercise 04: Protein Docking |
+-->
 
 
 ### Conda
