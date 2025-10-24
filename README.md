@@ -61,10 +61,14 @@ A curated list of small protein-ligand complexes suitable for molecular dynamics
 - Small size (< 50,000 atoms)
 - Presence of organic ligands (no simple ions/solvents)
 - High-quality structures (X-ray or cryo-EM)
+- Soluble proteins (avoiding membrane-embedded proteins)
+- No complex interactions (excluding RNA/DNA binding complexes)
 
 📊 **[View the curated summary table](scripts/simple_table.md)**
 
 The complete dataset with all details is also available as a [CSV file](scripts/suitable_protein_ligand_complexes.csv) including protein names, PDB IDs, ligands, resolution, organism, and other relevant data for structural analysis and MD simulations.
+
+**Note:** This list is provided as a starting point for project work. Students are **not limited** to these proteins and are encouraged to explore and select other suitable protein-ligand systems for their projects based on their research interests.
 
 
 ### License
