@@ -54,6 +54,19 @@ For Linux, Mac or Windows (via WSL).
 4. In VSCode, select the interpreter to the one you just created.
 
 
+## Protein-Ligand Complexes for Study
+
+A curated list of small protein-ligand complexes suitable for molecular dynamics simulations on laptop computers is available in the `scripts/` directory. These structures were identified using UniProt enzyme classification and RCSB PDB searches, filtered for:
+
+- Small size (< 50,000 atoms)
+- Presence of organic ligands (no simple ions/solvents)
+- High-quality structures (X-ray or cryo-EM)
+
+📊 **[View the curated summary table](scripts/simple_table.md)**
+
+The complete dataset with all details is also available as a [CSV file](scripts/suitable_protein_ligand_complexes.csv) including protein names, PDB IDs, ligands, resolution, organism, and other relevant data for structural analysis and MD simulations.
+
+
 ### License
 [![BY-NC-SA](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 

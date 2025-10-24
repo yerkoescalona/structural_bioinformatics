@@ -1,0 +1,53 @@
+PDB_ID,UniProt_ID,Protein_Name,Title,Resolution_Å,Method,Num_Atoms,Num_Residues,Ligands,Known_Cofactors,Organism
+1SEN,O95881,Thioredoxin domain-containing protein 12,Endoplasmic reticulum protein Rp19 O95881,,X-RAY DIFFRACTION,1170,0,PT,Unknown - will check PDB,Unknown
+1HI4,P10153,Non-secretory ribonuclease,Eosinophil-derived Neurotoxin (EDN) - Adenosien-3'-5'-Diphos...,,X-RAY DIFFRACTION,1239,0,A3P,Unknown - will check PDB,Unknown
+1HI5,P10153,Non-secretory ribonuclease,Eosinophil-derived Neurotoxin (EDN) - Adenosine-5'-Diphospha...,,X-RAY DIFFRACTION,1248,0,ADP,Unknown - will check PDB,Unknown
+1HI3,P10153,Non-secretory ribonuclease,Eosinophil-derived Neurotoxin (EDN) - Adenosine 2'-5'-Diphos...,,X-RAY DIFFRACTION,1268,0,A2P,Unknown - will check PDB,Unknown
+2BMD,P20338,Ras-related protein Rab-4A,high resolution structure of GDP-bound human Rab4a,,X-RAY DIFFRACTION,1631,0,GDP,Unknown - will check PDB,Unknown
+1DLR,P00374,Dihydrofolate reductase,METHOTREXATE-RESISTANT VARIANTS OF HUMAN DIHYDROFOLATE REDUC...,,X-RAY DIFFRACTION,1646,0,"MXA, NDP",Unknown - will check PDB,Unknown
+1YU9,P20338,Ras-related protein Rab-4A,GppNHp-Bound Rab4A,,X-RAY DIFFRACTION,1664,0,GNP,Unknown - will check PDB,Unknown
+5QGH,P0C024,Peroxisomal coenzyme A diphosphatase NUDT7,PanDDA analysis group deposition of models with modelled eve...,,X-RAY DIFFRACTION,1667,0,H2D,Unknown - will check PDB,Unknown
+5QGI,P0C024,Peroxisomal coenzyme A diphosphatase NUDT7,PanDDA analysis group deposition of models with modelled eve...,,X-RAY DIFFRACTION,1668,0,B0V,Unknown - will check PDB,Unknown
+5QGG,P0C024,Peroxisomal coenzyme A diphosphatase NUDT7,PanDDA analysis group deposition of models with modelled eve...,,X-RAY DIFFRACTION,1669,0,H2G,Unknown - will check PDB,Unknown
+5QGJ,P0C024,Peroxisomal coenzyme A diphosphatase NUDT7,PanDDA analysis group deposition of models with modelled eve...,,X-RAY DIFFRACTION,1675,0,H1A,Unknown - will check PDB,Unknown
+5QGK,P0C024,Peroxisomal coenzyme A diphosphatase NUDT7,PanDDA analysis group deposition of models with modelled eve...,,X-RAY DIFFRACTION,1688,0,H0S,Unknown - will check PDB,Unknown
+1BOZ,P00374,Dihydrofolate reductase,"STRUCTURE-BASED DESIGN AND SYNTHESIS OF LIPOPHILIC 2,4-DIAMI...",,X-RAY DIFFRACTION,1693,0,"NDP, PRD",Unknown - will check PDB,Unknown
+1DLS,P00374,Dihydrofolate reductase,METHOTREXATE-RESISTANT VARIANTS OF HUMAN DIHYDROFOLATE REDUC...,,X-RAY DIFFRACTION,1698,0,"NDP, MTX",Unknown - will check PDB,Unknown
+1DRF,P00374,Dihydrofolate reductase,CRYSTAL STRUCTURE OF HUMAN DIHYDROFOLATE REDUCTASE COMPLEXED...,,X-RAY DIFFRACTION,1788,0,FOL,Unknown - will check PDB,Unknown
+2PER,O15247,Chloride intracellular channel protein 2,Crystal Structure of Human Chloride Intracellular Channel pr...,,X-RAY DIFFRACTION,1843,0,MNB,Unknown - will check PDB,Unknown
+7YV4,P15374,Ubiquitin carboxyl-terminal hydrolase isozyme L3,Crystal structure of human UCHL3 in complex with Farrerol,,X-RAY DIFFRACTION,1906,0,JXY,Unknown - will check PDB,Unknown
+2R4V,O15247,Chloride intracellular channel protein 2,"Structure of human CLIC2, crystal form A",,X-RAY DIFFRACTION,2000,0,GSH,Unknown - will check PDB,Unknown
+2QK9,O60930,Ribonuclease H1,Human RNase H catalytic domain mutant D210N in complex with ...,,X-RAY DIFFRACTION,2112,0,"16D, FLC",Unknown - will check PDB,Unknown
+8OSC,O43598,5-hydroxymethyl-dUMP N-hydrolase,Structure of Homo sapiens 2'-deoxynucleoside 5'-phosphate N-...,,X-RAY DIFFRACTION,2172,0,UMP,Unknown - will check PDB,Unknown
+3KVF,P09936,Ubiquitin carboxyl-terminal hydrolase isozyme L1,Crystal structure of the I93M mutant of ubiquitin carboxy te...,,X-RAY DIFFRACTION,2349,0,GVE,Unknown - will check PDB,Unknown
+2GDZ,P15428,15-hydroxyprostaglandin dehydrogenase [NAD(+)],Crystal structure of 15-hydroxyprostaglandin dehydrogenase t...,,X-RAY DIFFRACTION,2400,0,NAD,Unknown - will check PDB,Unknown
+3IFW,P09936,Ubiquitin carboxyl-terminal hydrolase isozyme L1,Crystal structure of the S18Y variant of ubiquitin carboxy t...,,X-RAY DIFFRACTION,2403,0,GVE,Unknown - will check PDB,Unknown
+2HRB,O75828,Carbonyl reductase [NADPH] 3,"Crystal Structure of human Carbonyl Reductase 3, complexed w...",,X-RAY DIFFRACTION,2470,0,NAP,Unknown - will check PDB,Unknown
+2PQT,P18440,Arylamine N-acetyltransferase 1,Human N-acetyltransferase 1,,X-RAY DIFFRACTION,2534,0,UNX,Unknown - will check PDB,Unknown
+8QHR,O43598,5-hydroxymethyl-dUMP N-hydrolase,Crystal structure of the human DNPH1 glycosyl-enzyme interme...,,X-RAY DIFFRACTION,2563,0,"3DR, B3P",Unknown - will check PDB,Unknown
+1CA7,P14174,Macrophage migration inhibitory factor,MACROPHAGE MIGRATION INHIBITORY FACTOR (MIF) WITH HYDROXPHEN...,,X-RAY DIFFRACTION,2658,0,EN1,Unknown - will check PDB,Unknown
+2IJA,P18440,Arylamine N-acetyltransferase 1,Human N-acetyltransferase 1 F125S mutant,,X-RAY DIFFRACTION,2665,0,"UNX, ACM",Unknown - will check PDB,Unknown
+4P5E,O43598,5-hydroxymethyl-dUMP N-hydrolase,CRYSTAL STRUCTURE OF HUMAN DNPH1 (RCL) WITH 6-NAPHTHYL-PURIN...,,X-RAY DIFFRACTION,2811,0,N6P,Unknown - will check PDB,Unknown
+1GCZ,P14174,Macrophage migration inhibitory factor,MACROPHAGE MIGRATION INHIBITORY FACTOR (MIF) COMPLEXED WITH ...,,X-RAY DIFFRACTION,2949,0,"CIT, YZ9",Unknown - will check PDB,Unknown
+1GD0,P14174,Macrophage migration inhibitory factor,HUMAN MACROPHAGE MIGRATION INHIBITORY FACTOR (MIF),,X-RAY DIFFRACTION,3080,0,CIT,Unknown - will check PDB,Unknown
+1DHF,P00374,Dihydrofolate reductase,CRYSTAL STRUCTURES OF RECOMBINANT HUMAN DIHYDROFOLATE REDUCT...,,X-RAY DIFFRACTION,3132,0,FOL,Unknown - will check PDB,Unknown
+2A9K,P11233,Ras-related protein Ral-A,Crystal structure of the C3bot-NAD-RalA complex reveals a no...,,X-RAY DIFFRACTION,3278,0,"GDP, NAD",Unknown - will check PDB,Unknown
+7OEX,O75884,Serine hydrolase RBBP9,Crystal structure of RBBP9 in complex with phenylalanine,,X-RAY DIFFRACTION,3322,0,PHE,Unknown - will check PDB,Unknown
+2A78,P11233,Ras-related protein Ral-A,Crystal structure of the C3bot-RalA complex reveals a novel ...,,X-RAY DIFFRACTION,3354,0,GDP,Unknown - will check PDB,Unknown
+8FD8,P15428,15-hydroxyprostaglandin dehydrogenase [NAD(+)],human 15-PGDH with NADH bound,,ELECTRON MICROSCOPY,3406,0,NAI,Unknown - will check PDB,Unknown
+1YFK,P18669,Phosphoglycerate mutase 1,Crystal structure of human B type phosphoglycerate mutase,,X-RAY DIFFRACTION,3949,0,CIT,Unknown - will check PDB,Unknown
+8CWL,P15428,15-hydroxyprostaglandin dehydrogenase [NAD(+)],Cryo-EM structure of Human 15-PGDH in complex with small mol...,,ELECTRON MICROSCOPY,4038,0,"NAI, RLD",Unknown - will check PDB,Unknown
+8CVN,P15428,15-hydroxyprostaglandin dehydrogenase [NAD(+)],Cryo-EM Structure of Human 15-PGDH in Complex with Small Mol...,,ELECTRON MICROSCOPY,4054,0,"NAI, SWL",Unknown - will check PDB,Unknown
+5Y2I,P18669,Phosphoglycerate mutase 1,Phosphoglycerate mutase 1 (PGAM1) complexed with its inhibit...,,X-RAY DIFFRACTION,4082,0,8KX,Unknown - will check PDB,Unknown
+1Z0K,P20338,Ras-related protein Rab-4A,Structure of GTP-Bound Rab4Q67L GTPase in complex with the c...,,X-RAY DIFFRACTION,4108,0,GTP,Unknown - will check PDB,Unknown
+1UAD,P11233,Ras-related protein Ral-A,Crystal structure of the RalA-GppNHp-Sec5 Ral-binding domain...,,X-RAY DIFFRACTION,4420,0,GNP,Unknown - will check PDB,Unknown
+6Y7F,A1L3X0,Very long chain fatty acid elongase 7,Crystal structure of human ELOVL fatty acid elongase 7 (ELOV...,,X-RAY DIFFRACTION,4665,0,"OFN, 37X",Unknown - will check PDB,Unknown
+1ZC4,P11233,Ras-related protein Ral-A,Crystal structure of the Ral-binding domain of Exo84 in comp...,,X-RAY DIFFRACTION,4895,0,GNP,Unknown - will check PDB,Unknown
+1ZC3,P11233,Ras-related protein Ral-A,Crystal structure of the Ral-binding domain of Exo84 in comp...,,X-RAY DIFFRACTION,5077,0,GNP,Unknown - will check PDB,Unknown
+1XD3,P15374,Ubiquitin carboxyl-terminal hydrolase isozyme L3,Crystal structure of UCHL3-UbVME complex,,X-RAY DIFFRACTION,6182,0,GVE,Unknown - will check PDB,Unknown
+2BME,P20338,Ras-related protein Rab-4A,high resolution structure of GppNHp-bound human Rab4a,,X-RAY DIFFRACTION,6403,0,GNP,Unknown - will check PDB,Unknown
+8OIF,O14933,Ubiquitin/ISG15-conjugating enzyme E2 L6,Structure of the UBE1L activating enzyme bound to ISG15 and ...,,ELECTRON MICROSCOPY,6589,0,AMP,Unknown - will check PDB,Unknown
+8QHQ,O43598,5-hydroxymethyl-dUMP N-hydrolase,Crystal structure of human DNPH1 bound to hmdUMP,,X-RAY DIFFRACTION,7493,0,5HU,Unknown - will check PDB,Unknown
+1Z7X,P07998,Ribonuclease pancreatic,X-ray structure of human ribonuclease inhibitor complexed wi...,,X-RAY DIFFRACTION,9795,0,CIT,Unknown - will check PDB,Unknown
+8SE9,O14933,Ubiquitin/ISG15-conjugating enzyme E2 L6,Cryo-EM structure of a double loaded human UBA7-UBE2L6-ISG15...,,ELECTRON MICROSCOPY,10195,0,AMP,Unknown - will check PDB,Unknown
+1YJX,P18669,Phosphoglycerate mutase 1,Crystal structure of human B type phosphoglycerate mutase,,X-RAY DIFFRACTION,23286,0,CIT,Unknown - will check PDB,Unknown
