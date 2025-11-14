@@ -2545,6 +2545,37 @@ extra-formats = ["chemfiles (>=0.10)", "gsd (>3.0.0)", "h5py (>=2.10)", "imdclie
 parallel = ["dask"]
 
 [[package]]
+name = "mdtraj"
+version = "1.11.0"
+description = "MDTraj: A modern, open library for the analysis of molecular dynamics trajectories"
+optional = false
+python-versions = ">=3.11"
+groups = ["main"]
+files = [
+    {file = "mdtraj-1.11.0-cp311-cp311-macosx_10_9_universal2.whl", hash = "sha256:a6bbf2bc03a2ed23fd1fe696f6f6f970f495e843f3baaa71a0e99da086420de1"},
+    {file = "mdtraj-1.11.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:6c34002c49282d208fdd34cd1b2578859bc7377a22ebd66a194efa1fc17395e5"},
+    {file = "mdtraj-1.11.0-cp311-cp311-win_amd64.whl", hash = "sha256:4c794aac3db13937ed7e4f8c2b773564a89b2b539c15f43bae9dab6e1ffa5de1"},
+    {file = "mdtraj-1.11.0-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:878fb8e62962b881ba75d4200637280b518e891e4aa5f213052ddb1905704558"},
+    {file = "mdtraj-1.11.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:01eb00d9b62f22056303fb8e4be0f85257a2ce1003f1e6274393bbcc977badaf"},
+    {file = "mdtraj-1.11.0-cp312-cp312-win_amd64.whl", hash = "sha256:f87117f7e6742b11a3a39e55fe5c9b4fc013d27691ac671bcc6dfb8193beae0f"},
+    {file = "mdtraj-1.11.0-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:125db8d7b8f795ed2a771d5d6f419461e2f9dd21ef74d43311570b9dadbf0d46"},
+    {file = "mdtraj-1.11.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:46def167a429af5834f4f26a80bca372518952519847c1ceffd0163814b1164e"},
+    {file = "mdtraj-1.11.0-cp313-cp313-win_amd64.whl", hash = "sha256:8ad81b0aabf090b1b0e60ee7974bd676046e48d35a7efdc9a37a8eacaf5b70e4"},
+    {file = "mdtraj-1.11.0.tar.gz", hash = "sha256:2cf0ed2ee9a603dc4599743b1806e1387c655e2a1e9d013841b99fb137ad852e"},
+]
+
+[package.dependencies]
+numpy = ">=1.25.0,<3"
+packaging = "*"
+pyparsing = "*"
+scipy = "*"
+
+[package.extras]
+all = ["netCDF4", "networkx", "pandas", "pytest", "pytest-rerunfailures", "pytest-xdist", "tables"]
+optional = ["netCDF4", "networkx", "pandas", "tables"]
+tests = ["pytest", "pytest-rerunfailures", "pytest-xdist"]
+
+[[package]]
 name = "mdurl"
 version = "0.1.2"
 description = "Markdown URL utilities"
@@ -2880,20 +2911,21 @@ files = [
 
 [[package]]
 name = "nglview"
-version = "3.1.2"
+version = "4.0"
 description = "IPython widget to interactively view molecular structures and trajectories."
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.7"
 groups = ["main"]
 files = [
-    {file = "nglview-3.1.2.tar.gz", hash = "sha256:7f672efa2b6ca0db34de968e5b5766b14b1b3dade212d2f8a083c600a11345ce"},
+    {file = "nglview-4.0.tar.gz", hash = "sha256:2c0cff2c5b1e2a0a72e3393087ce44ae0308524c5aa5f95357812d3edbc26e83"},
 ]
 
 [package.dependencies]
 ipywidgets = ">=8"
+jupyterlab = ">=3"
 jupyterlab_widgets = "*"
 notebook = ">=7"
-numpy = "*"
+numpy = "<2.3"
 
 [package.extras]
 ase = ["ase"]
@@ -5274,4 +5306,4 @@ cffi = ["cffi (>=1.17,<2.0) ; platform_python_implementation != \"PyPy\" and pyt
 [metadata]
 lock-version = "2.1"
 python-versions = "~3.12"
-content-hash = "1b5aeac7dfaa20844d9a6ccb0221ab7bc38770c8a1f98e57ddec230236e58290"
+content-hash = "9f3e3f9f168e9464097cac30b06df5afe21dea6b82caae9e4e09d5d3bc0cf5dc"
